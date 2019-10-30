@@ -1,0 +1,96 @@
+
+html,body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    font-family: 'Dancing Script', cursive !important;
+  }
+  header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    background: #161415 url('images/banner.jpg') no-repeat top center;
+    background-size: cover !important;
+   -webkit-background-size: cover !important;
+    overflow: hidden;
+    color: white;
+ }
+#about {
+  background-color: #ffffff;
+  text-align: center;
+}
+#services {
+  background-color: #F4005E;
+}
+#our-work{
+  background-color: #ffffff;
+}
+footer {
+    height: 70%;
+    width: 100%;
+    background: url('images/banner.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+}
+.container {
+  text-align: center;
+}
+.contain {
+  display: grid;
+  align-content: center !important;
+}
+
+/* .black{
+  color: black;
+} */
+.grid-wrapper{
+  display: flex;
+  grid-gap: 20px;
+  
+}
+.icons{
+  background-color: #F4005E;
+  border-radius: 0.5rem;
+  border: 1px solid black;
+  /* padding: 130px;
+  margin: 20px; */
+}
+
+.icons > img {
+  width: 20px;
+  height: 30px;
+}
+
+.red{
+  color: red;
+}
+.white {
+  color: white;
+}
+
+.row {
+  display: grid;
+  background-color: #F4005E;
+  padding: 20px 20px 20px 20px;
+}
+.back{
+  background-color: #F4005E;
+  width: 100%;
+  height: auto;
+}
+li{
+  padding: 0 10px 0 0;
+}
+.nav {
+  padding: 30px;
+}
+.input {
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 15px 15px 15px 15px;
+  margin-left: 350px;
+  width: 400px;
+  height: auto;
+}
